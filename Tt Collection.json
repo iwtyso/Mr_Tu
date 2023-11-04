@@ -2,7 +2,7 @@
     "storeHouse": [
         {
             "sourceName": "在线仓库(图图收集)",
-            "sourceUrl": "https://cdn.jsdelivr.net/gh/iwtyso/Mr_Tu@main/ttxl.json"
+            "sourceUrl": "https://ghproxy.com/https://raw.githubusercontent.com/iwtyso/Mr_Tu/main/ttxl.json"
         }
     ]
 }
