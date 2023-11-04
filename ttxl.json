@@ -24,13 +24,13 @@
    "name":"Ⓜ️动漫专线"
     },
     
-    {
+    //{
+    //  "url": "https://download.kstore.space/download/3313/app/ymshaoer.txt",
+    //  "name":"🐰兔小贝(学习)"
+    //}
+    { 
       "url": "https://download.kstore.space/download/3313/app/ymshaoer.txt",
       "name":"🐰兔小贝(学习)"
     }
-   // { 
-   //   "url": "https://d.looks.wang/夜猫子少儿频道",
-   //   "name":"🐱夜猫子(少儿频道)"
-   // }
   ]
 }
