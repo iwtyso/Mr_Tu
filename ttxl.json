@@ -24,10 +24,11 @@
    "name":"Ⓜ️动漫专线"
     },
     
-    //{
-    //  "url": "https://download.kstore.space/download/3313/app/ymshaoer.txt",
-    //  "name":"🐰兔小贝(学习)"
-    //}
+    {
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "name":"🐰南风"
+    },
+    
     { 
       "url": "https://download.kstore.space/download/3313/app/ymshaoer.txt",
       "name":"🐰兔小贝(学习)"
