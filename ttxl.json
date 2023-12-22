@@ -6,15 +6,21 @@
     },
     
     {
-      "url": "http://我不是.肥猫.love:63/接口禁止贩卖",
+      "url": "http://肥猫.live",
       "name": "🐱肥猫"
-    },  
+    }, 
+
     {
       "url": "http://饭太硬.top/tv",
       "name": "🍚饭太硬"
     },
+
+    {
+      "url":"http://svip.weixine.net:88/uploads/itvbox/svip.json",
+      "name":"🚛运输车"
+    },
     
-     {
+    {
       "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
       "name":"👻南风"
     },
@@ -25,14 +31,14 @@
     },
     
     {
-     "url": "https://www.yingm.cc/dm/dm.json",
-   "name":"Ⓜ️动漫专线"
+      "url": "https://codeberg.org/Pizazz/TVBox_warehouse/raw/branch/main/动漫/api.json",
+      "name":"Ⓜ️动漫专线(欧歌)"
     },
-    
-   
+      
     { 
-      "url": "https://download.kstore.space/download/3313/app/ymshaoer.txt",
-      "name":"🐰兔小贝(学习)"
+      "url": "http://tv.nxog.top/m/333.php?ou=公众号欧歌app&mz=a3&jar=a3&b=欧歌",
+      "name":"🐰兔小贝学习(欧歌)"
     }
   ]
 }
+
