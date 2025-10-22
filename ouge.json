@@ -12,7 +12,7 @@
 ],
 "sites": [
 {"key":"豆瓣2","name":"📢公众号【光歌软件分享】严谨用于任何商业用途！","type":3,"api":"csp_Douban","searchable":0},
-{"key":"豆瓣1","name":"📢公告❤更新:8/30❤","type":3,"api":"csp_Notice","searchable":0,"changeable": 0,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=xx;md5;ed61f5e30960fa9d7c4ef6cf81a3f01b","ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】严谨用于任何商业用途！"},
+{"key":"豆瓣1","name":"📢公告❤更新:10/22❤","type":3,"api":"csp_Notice","searchable":0,"changeable": 0,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=xx;md5;ed61f5e30960fa9d7c4ef6cf81a3f01b","ext": "https://xn--dkw0c.v.nxog.top/m/公告.php?b=公众号【光歌软件分享】严谨用于任何商业用途！"},
 {"key":"csp_woog","name":"🐲玩欧｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=og;md5;d4be9b4c1fc2a46911fb45726b8f109a ","ext":{"site_urls":["https://woog.nxog.eu.org","https://woog.nxog.fun","https://woog.xn--dkw.xn--6qq986b3xl","https://ogwo.xn--dkw.xn--6qq986b3xl"],"url_key":"woog","threadinfo":{"chunksize":204,"threads":16}}},
 
 {"key": "config", "name": "🐲配置｜中心","type": 3,"jar":"https://jar.yy.xn--dkw.xn--6qq986b3xl/m/jar.php?id=cf2;md5;b961fa9359288f2a744090b6715683c0 ","api": "csp_Config","searchable": 0},
@@ -199,5 +199,6 @@
 
 //**本接口免费分享给小白测试和学习使用，请勿用于违法用途，如有冒犯请联系删除，谨防上当受骗。<请勿相信视频中广告>
 }
+
 
 
