@@ -1,7 +1,7 @@
 {
   "wallpaper": "https://xn--k77k-wn6lw489o.v.nxog.top/m/t/",
   "logo": "https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
-  "spider": "https://xn--k77k-wn6lw489o.v.nxog.top/m/jar?id=index;md5;678e6aa8cd76dad3bf565c8d98238bce",
+  "spider": "https://xn--k77k-wn6lw489o.v.nxog.top/m/jar?id=index;md5;7deafa7145a3c82aac4a6be6f6b57658",
   "warningText": "k7装🅱7k提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
   "sites": [
     {
@@ -13,15 +13,14 @@
     },
     {
       "key": "豆瓣1",
-      "name": "📢公告❤更新03.21❤",
+      "name": "📢公告❤更新04.01❤",
       "type": 3,
       "api": "csp_Notice",
       "searchable": 1,
       "jar": "https://xn--k77k-wn6lw489o.v.nxog.top/m/jar?id=xx;md5;ff4f99fad585f4935fcaa06e3092e44a",
-     "ext": "https://xn--k77k-wn6lw489o.v.nxog.top/m/公告?b=k7装🅱7k"
+      "ext": "https://xn--k77k-wn6lw489o.v.nxog.top/m/公告?b=k7装🅱7k"
     },
    
-    
     {
       "key": "荐片",
       "name": "💡荐片｜影视",
@@ -48,13 +47,6 @@
       "ext": "https://vip.wwgz.cn:5200"
     },
     {
-      "key": "韩圈",
-      "name": "💡韩圈｜影视",
-      "type": 3,
-      "api": "csp_Hxq",
-      "ext": "https://fishapi.wya6.com/fish/fishhxq.php"
-    },
-    {
       "key": "坚果影视",
       "name": "💡坚果｜影视",
       "type": 3,
@@ -77,15 +69,6 @@
       "name": "💡瓜子｜影视",
       "type": 3,
       "api": "csp_Gz360"
-    },
-    {
-      "key": "爱看机器人",
-      "name": "💡爱看｜影视",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
     },
     {
       "key": "奇优影视",
@@ -189,32 +172,6 @@
       }
     },
     {
-      "key": "优兔",
-      "name": "👑优兔｜影视",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://uututv-1319209748.cos.ap-shanghai.myqcloud.com/uutuv4.txt",
-        "dataKey": "UrWKPnmQWJA8AQzd",
-        "dataIv": "UrWKPnmQWJA8AQzd"
-      }
-    },
-    {
-      "key": "王子",
-      "name": "👑王子｜影视",
-      "type": 3,
-      "searchable": 1,
-      "changeable": 1,
-      "api": "csp_AppGet",
-      "ext": {
-        "url": "https://app.95112475.xyz",
-        "dataKey": "5a9w6x58dsq6z3a6",
-        "dataIv": "5a9w6x58dsq6z3a6"
-      }
-    },
-    {
       "key": "爱盈",
       "name": "👑爱盈｜影视",
       "type": 3,
@@ -259,20 +216,6 @@
       }
     },
     {
-      "key": "爱影",
-      "name": "👑爱影｜影视",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://aysappto.oss-cn-chengdu.aliyuncs.com/q19.txt",
-        "dataKey": "fff32466kkfff616",
-        "dataIv": "fff32466kkfff616",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-    {
       "key": "小猪",
       "name": "👑小猪｜影视",
       "type": 3,
@@ -283,22 +226,6 @@
         "site": "https://tiantangwulu.oss-cn-shanghai.aliyuncs.com/xinjian.txt",
         "dataKey": "k5t2fp3h9d25hn9y",
         "dataIv": "k5t2fp3h9d25hn9y",
-        "ua": "okhttp/3.10.0"
-      }
-    },
-    {
-      "key": "橘子",
-      "name": "👑橘子｜影视",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": "https://juziapp-1319209748.cos.ap-chengdu.myqcloud.com/juzi.txt",
-        "dataKey": "jasaFBcdV3zrUDf2",
-        "dataIv": "jasaFBcdV3zrUDf2",
-        "version": "305",
-        "init": "initV122",
         "ua": "okhttp/3.10.0"
       }
     },
@@ -493,7 +420,6 @@
         "dataIv": "N4yj7l7xKxHF4*gz"
       }
     },
- 
     {
       "key": "养生堂",
       "name": "🧿养生｜知识",
@@ -553,7 +479,23 @@
       "ext": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/啊哈DJ.json",
       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5"
     },
-   
+    {
+      "key": "哔️软件",
+      "name": "🅰️软件┃哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/软件教程.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
     {
       "key": "哔哩学堂",
       "name": "🅰学堂┃哔哩",
@@ -809,7 +751,57 @@
         "ratio": 1.597
       }
     },
-   
+    {
+      "key": "csp_BBB",
+      "name": "🅱️套餐┃哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/哔哩套餐1.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "csp_111BB",
+      "name": "🅱️套餐2┃哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/哔哩套餐2.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
+    {
+      "key": "歌曲",
+      "name": "🌈歌曲┃哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": {
+        "cookie": "http://127.0.0.1:9978/file/TVBox/bili_cookie.txt",
+        "json": "https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/Bil/歌曲MV.json"
+      },
+      "style": {
+        "type": "rect",
+        "ratio": 1.597
+      }
+    },
     {
       "key": "美食",
       "name": "🌈美食┃哔哩",
@@ -1010,7 +1002,7 @@
     {
       "name": "失败手动换",
       "type": "1",
-      "url": "https://by1.nxog.eu.org/jx.php?ou=141&mz=0&url=",
+      "url": "https://by1.nxog.eu.org/jx.php?ou=191&mz=0&url=",
       "ext": {
         "header": {
           "user-agent": "Mozilla/5.0(Linux;Android13;V2049ABuild/TP1A.220624.014;wv)AppleWebKit/537.36(KHTML,likeGecko)Version/4.0Chrome/116.0.0.0MobileSafari/537.36"
@@ -1020,17 +1012,17 @@
     {
       "name": "-关注-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=141&mz=1&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=191&mz=1&url="
     },
     {
       "name": "-装歌API-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=141&mz=2&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=191&mz=2&url="
     },
     {
       "name": "-公众号-",
       "type": 1,
-      "url": "https://by1.nxog.eu.org/jx.php?ou=141&mz=3&url="
+      "url": "https://by1.nxog.eu.org/jx.php?ou=191&mz=3&url="
     },
     {
       "name": "装歌APP",
@@ -1098,7 +1090,7 @@
     {
       "name": "k7装🅱7k",
       "type": 0,
-      "url": "https://xn--k77k-wn6lw489o.v.nxog.top/m/tv/?ou=141",
+      "url": "https://xn--k77k-wn6lw489o.v.nxog.top/m/tv/?ou=191",
       "epg": "http://cdn.1678520.xyz/epg/?ch={name}&date={date}",
       "logo": "https://gitee.com/mytv-android/myTVlogo/raw/main/img/{name}.png",
       "playerType": 2,
