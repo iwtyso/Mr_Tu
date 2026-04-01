@@ -130,14 +130,7 @@
       "quickSearch": 0,
       "filterable": 0
     },
-    {
-      "key": "移动",
-      "name": "💡移动｜影视",
-      "type": 3,
-      "api": "csp_YDjisu",
-      "searchable": 1,
-      "quickSearch": 1
-    },
+    
     {
       "key": "橘皮",
       "name": "💡橘皮｜影视",
