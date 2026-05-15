@@ -6,14 +6,14 @@
   "sites": [
     {
       "key": "豆瓣2",
-      "name": "📢如果免费仅限测试用，请勿演示贩卖购买，谨防上当受骗！",
+      "name": "📢如果免费仅限测试用，谨防上当受骗！",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "豆瓣1",
-      "name": "📢公告❤更新04.06❤",
+      "name": "📢公告❤更新最后一版❤",
       "type": 3,
       "api": "csp_Notice",
       "searchable": 1,
