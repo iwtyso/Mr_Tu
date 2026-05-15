@@ -6,7 +6,7 @@
   "sites": [
     {
       "key": "豆瓣2",
-      "name": "📢如果免费仅限测试用，谨防上当受骗！",
+      "name": "📢仅限测试用！",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
@@ -741,14 +741,14 @@
     },
     {
       "key": "豆瓣3",
-      "name": "📢接口软件永远免费",
+      "name": "📢接口软件免费",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
     },
     {
       "key": "豆瓣4",
-      "name": "📢长期维护切勿贩卖",
+      "name": "📢江湖不在相见",
       "type": 3,
       "api": "csp_Douban",
       "searchable": 0
