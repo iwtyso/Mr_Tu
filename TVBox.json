@@ -36,9 +36,9 @@
     },
 
 
- {"key": "橙子99","name": "❤橙子 • APP","type": 3,"api": "csp_App99",
-   "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jar/spider.jar;md5;beb7789d772de3d092ead4f8aa43be62",
-   "ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"}},
+// {"key": "橙子99","name": "❤橙子 • APP","type": 3,"api": "csp_App99",
+ //  "jar":"https://gh-proxy.com/https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/jar/spider.jar;md5;beb7789d772de3d092ead4f8aa43be62",
+  // "ext": {"host": "http://113.31.180.218:19987/app/bn","LoginPath": "/app/log","appkey": "6e8f3764a0644f3686ab5cdd57bcdf48","versionName": "4.3.1","name": "小橙子","package": "com.xchengzix.app","buildNumber": "2001","buildSignature": "99DA983CF878CEC016616175464A91A94775E20A489F07F76FCDEA1A0F2B6B45"}},
 
 
     
@@ -452,9 +452,10 @@
     {"key": "drpy_js_优酷","name": "官源 | 优酷[js]","type": 3,"api": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/lib/drpy2.min.js","ext": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/js/优酷.js"},
     
      {"key": "好看短剧","name": "好看 • 短剧","type": 3,
+       "jar": "https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a",
        "api": "csp_HaokanDJ","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "星芽短剧","name": "星芽 • 短剧","type": 3,
-      "api": "./py/XYDJ.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
+      "api": "https://raw.githubusercontent.com/qist/tvbox/refs/heads/master/py/XYDJ.py","searchable": 1,"changeable": 1,"quickSearch": 1,"filterable": 1,"genre": "shortdrama"},
     {"key": "果果短剧","name": "果果 • 短剧","type": 3,
       "api": "csp_XBPQ","ext": {"请求头": "User-Agent$MOBILE_UA","编码": "UTF-8","分类": "重生$1#穿越$2#爽剧$3#言情$4#都市$5#古装$6#悬疑$7#剧情$8","分类url": "https://www.mochadj.com/i/{cateId}-{catePg}.html"}},
     
