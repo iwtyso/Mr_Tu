@@ -1,18 +1,18 @@
 
 {
-"logo":"https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
+//"logo":"https://ncstatic-file.clewm.net/rsrc/2025/0930/20/945a6372224243d3f3d63cb309c0b7b1.png",
 "spider":"https://ncstatic-file.clewm.net/rsrc/2026/0801/00/6965c1fecb1811caad096e3cef84682e.jpg;md5;8fd1a7eb6c700c7036319c664bf4f62c",
-"warningText":"双龙提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
+//"warningText":"双龙提示:\n📢接口软件永远免费 \n📢长期维护切勿贩卖",
 "wallpaper":"http://127.0.0.1:9978/proxy?do=wallpaper",
 "danmaku":"http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
 "sites": [
-{"key":"豆瓣2","name":"📢免费仅限测试用，如有收费,直接找退款！","type":3,"api":"csp_Douban","searchable":0},
-{"key":"豆瓣1","name":"📢公告❤更新0801❤","type":3,"api":"csp_Notice","searchable": 1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a","ext": "https://xn--jory77o.u.xn--dkw.xn--6qq986b3xl/m/公告?b=双龙"},
+{"key":"豆瓣2","name":"搜索｜豆瓣精选","type":3,"api":"csp_Douban","searchable":0},
+//{"key":"豆瓣1","name":"📢公告❤更新0801❤","type":3,"api":"csp_Notice","searchable": 1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0307/11/f3b31497ca266ea4f8a89c88e9385f48.jpg;md5;ff4f99fad585f4935fcaa06e3092e44a","ext": "https://xn--jory77o.u.xn--dkw.xn--6qq986b3xl/m/公告?b=双龙"},
 
 //{"key": "config", "name": "🐲歌配置｜中心","type": 3,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","api": "csp_Config","searchable": 0},
 //{"key":"配置中心","name":"❤配置｜中心","type":3,"api":"csp_Config","searchable":0,"changeable":0,"style":{"type":"rect","ratio":1.597}},
-{"key":"csp_wogg1","name":"🐲玩歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org","https://woog.430520.xyz","https://woog.装歌.de5.net","https://ogkk.nxog.fun"],"url_key":"wogg1","threadinfo":{"chunksize":505,"threads":16}}},
-{"key":"csp_woog2","name":"🐲装歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org","https://ogkk.430520.xyz","https://ogkk.装歌.de5.net","https://woog.430520.xyz"],"url_key":"woog2","threadinfo":{"chunksize":420,"threads":16}}},
+//{"key":"csp_wogg1","name":"🐲玩歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","ext":{"site_urls":["https://woog.nxog.fun","https://woog.nxog.eu.org","https://woog.430520.xyz","https://woog.装歌.de5.net","https://ogkk.nxog.fun"],"url_key":"wogg1","threadinfo":{"chunksize":505,"threads":16}}},
+//{"key":"csp_woog2","name":"🐲装歌｜4K弹幕","type":3,"changeable":"0","api":"csp_Duopan","filterable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0729/14/ac6da3f3d2f7a143cb4ff68ac0aba5b9.jpg;md5;19b4103b57b2c4fb19c2fe80bbf2686d","ext":{"site_urls":["https://ogkk.nxog.fun","https://ogkk.nxog.eu.org","https://ogkk.430520.xyz","https://ogkk.装歌.de5.net","https://woog.430520.xyz"],"url_key":"woog2","threadinfo":{"chunksize":420,"threads":16}}},
 //{"key":"夸快夸快","name":"❤夸快｜4K弹幕","type":3,"api":"csp_PanWebShare","searchable":1,"quickSearch":1,"filterable":1,"changeable":1,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0801/00/359c60089176c437e74e96d685b8a72e.jpg;md5;182f3ff054e1a255420840f83b553fe4","ext":{"site":["https://ogkk.nxog.eu.org","https://ogkk.nxog.fun","https://woog.歌.de5.net"]}},
 
 //jar
