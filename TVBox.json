@@ -106,8 +106,8 @@
       "name": "🔍 小说聚合搜索",
       "type": 3,
       "api": "./py/小说聚合搜索.py",
-      "searchable": 1,
-      "quickSearch": 1,
+      "searchable": 0,
+      "quickSearch": 0,
       "filterable": 0,
       "changeable": 0
     },
