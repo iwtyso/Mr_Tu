@@ -111,6 +111,16 @@
       "filterable": 0,
       "changeable": 0
     },
+   {
+      "key": "笔趣阁小说",
+      "name": "📖 笔趣阁小说[py]",
+      "type": 3,
+      "api": "./py/笔趣阁.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
     {
       "key": "燃文小说",
       "name": "📖 燃文小说[py]",
@@ -121,16 +131,7 @@
       "filterable": 0,
       "changeable": 0
     },
-    {
-      "key": "笔趣阁小说",
-      "name": "📖 笔趣阁小说[py]",
-      "type": 3,
-      "api": "./py/笔趣阁.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
+   
     {
       "key": "灯笔小说",
       "name": "📖 灯笔小说[py]",
