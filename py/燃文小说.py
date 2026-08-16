@@ -17,7 +17,7 @@ class Spider(Spider):
         return "燃文小说"
 
     def init(self, extend=""):
-        self.host = "https://www.ranwen.la"
+        self.host = "https://ranwen.la"  # 用裸域名更稳；站点会在桌面/移动模板间轮换，解析器已兼容两种
         self.session = requests.Session()
         self.session.headers.update({
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
@@ -71,37 +71,49 @@ class Spider(Spider):
         return {"class": [{"type_id": tid, "type_name": name} for tid, name in self.classes]}
 
     def _parse_row(self, li):
-        a = li.select_one("span.s2 a[href*='/oorw/']")
+        # 兼容站点两种列表模板：
+        # 1) 桌面版：ul.txt-list li -> span.s2 a[href*='/oorw/']
+        # 2) 移动版：li（如 .ph_list li）直接包含 a[href*='/oorw/']，且页面无 <img>，封面按书号合成
+        a = li.select_one("span.s2 a[href*='/oorw/']") or li.select_one("a[href*='/oorw/']")
         if not a:
             return None
         href = a.get("href", "")
         m = re.search(r"/oorw/(\d+)/", href)
         if not m:
             return None
+        bid = m.group(1)
         title = a.get_text(strip=True)
         title = re.sub(r"^\[[^\]]*\]\s*", "", title)
         chap = li.select_one("span.s3 a")
         author = li.select_one("span.s4") or li.select_one("span.s5 a[href*='/author/']")
+        if author is None:
+            author = li.select_one("a[href*='/author/']")
         remark = ""
         if author:
             remark = author.get_text(strip=True)
         if chap:
             remark = (remark + " " + chap.get_text(strip=True)).strip()
         return {
-            "vod_id": f"/oorw/{m.group(1)}/",
-            "vod_name": title or ("书籍" + m.group(1)),
-            "vod_pic": "",
+            "vod_id": f"/oorw/{bid}/",
+            "vod_name": title or ("书籍" + bid),
+            # 移动版页面没有 <img>，但 /img/{id}.jpg 封面一直有效，统一按书号合成
+            "vod_pic": f"{self.host}/img/{bid}.jpg",
             "vod_remarks": remark,
         }
 
     def _parse_rows(self, soup):
         videos, seen = [], set()
-        for li in soup.select("ul.txt-list li"):
+        lis = soup.select("ul.txt-list li")
+        if not lis:
+            # 移动版模板没有 ul.txt-list，取所有包含 /oorw/ 链接的 li
+            lis = [li for li in soup.select("li") if li.select_one("a[href*='/oorw/']")]
+        for li in lis:
             b = self._parse_row(li)
             if b and b["vod_id"] not in seen:
                 seen.add(b["vod_id"])
                 videos.append(b)
         return videos
+
 
     def homeVideoContent(self):
         html = self._fetch(self.host)

@@ -35,6 +35,11 @@ class Spider(Spider):
     def getName(self):
         return "小说聚合搜索"
 
+    def getDependence(self):
+        # 关键：告诉 app 需要一起下载的子源文件名（不带 .py，Java 侧会补 .py）
+        # 否则 app 缓存里没有这些文件，聚合源会加载 0 个子源，首页/搜索全空。
+        return [fname[:-3] for fname, _ in SUB_SOURCES]
+
     def init(self, extend=""):
         self.sources = {}  # key -> 子源实例
         self._lock = threading.Lock()
@@ -55,6 +60,10 @@ class Spider(Spider):
         for p in sys.path:
             if p and os.path.isdir(p) and os.path.exists(os.path.join(p, "燃文小说.py")):
                 return p
+        # 常见兜底：PickTV/FongMi 的 py 缓存目录
+        for base in (os.getcwd(), r"py", os.path.join(os.getcwd(), "py")):
+            if os.path.isfile(os.path.join(base, "燃文小说.py")):
+                return os.path.abspath(base)
         return os.getcwd()
 
     def _load_source(self, here, fname, key):
