@@ -101,7 +101,7 @@
 {"key":"drpy_js_优酷","name":"官源 • 优酷[js]","type":3,"api":"https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js","ext":"https://raw.githubusercontent.com/qist/tvbox/master/js/优酷.js"},
 
 //小说py
-/*{
+{
       "key": "小说聚合搜索",
       "name": "🔍 小说聚合搜索",
       "type": 3,
@@ -111,7 +111,7 @@
       "filterable": 0,
       "changeable": 0
     },
-*/
+
       
       {
       "key": "七猫小说",
