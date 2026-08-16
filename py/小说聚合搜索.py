@@ -13,11 +13,11 @@ from base.spider import Spider
 
 # 参与聚合的子源（文件名 -> 路由 key），按推荐顺序排列
 SUB_SOURCES = [
+    ("七猫小说.py", "七猫小说"),
     ("燃文小说.py", "燃文小说"),
     ("笔趣阁.py", "笔趣阁"),
     ("灯笔小说.py", "灯笔小说"),
     ("顶点小说.py", "顶点小说"),
-    ("七猫小说.py", "七猫小说"),
 ]
 
 # 章节 URL 特征 -> 路由 key（用于 playerContent）
