@@ -56,16 +56,36 @@ class Spider(Spider):
         return self.host + "/" + url
 
     def _fetch(self, url, timeout=15, data=None):
-        try:
-            if data is not None:
-                resp = self.session.post(url, data=data, timeout=timeout)
-            else:
-                resp = self.session.get(url, timeout=timeout)
-            resp.encoding = "utf-8"
-            return resp.text
-        except Exception as e:
-            print(f"[顶点小说 Fetch Error] {url} -> {e}")
-            return ""
+        last = None
+        for attempt in range(1, 4):
+            try:
+                if data is not None:
+                    resp = self.session.post(url, data=data, timeout=timeout)
+                else:
+                    resp = self.session.get(url, timeout=timeout)
+                resp.encoding = "utf-8"
+                return resp.text
+            except Exception as e:
+                last = e
+                print(f"[顶点小说] 第{attempt}次失败 {url} -> {e}")
+                # curl_cffi 异常（如 CA 加载失败、中文路径问题）时自动回退 requests
+                if CURL_CFFI:
+                    try:
+                        if not hasattr(self, "_req_fallback"):
+                            import requests as _rq
+                            self._req_fallback = _rq.Session()
+                            self._req_fallback.headers.update(self.session.headers)
+                            self._req_fallback.trust_env = False
+                        if data is not None:
+                            resp = self._req_fallback.post(url, data=data, timeout=timeout)
+                        else:
+                            resp = self._req_fallback.get(url, timeout=timeout)
+                        resp.encoding = "utf-8"
+                        return resp.text
+                    except Exception as e2:
+                        last = e2
+        print(f"[顶点小说 Fetch Error] {url} -> {last}")
+        return ""
 
     def _og(self, soup, name):
         node = soup.select_one('meta[property="og:%s"]' % name)
