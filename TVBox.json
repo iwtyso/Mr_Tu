@@ -111,6 +111,16 @@
       "filterable": 0,
       "changeable": 0
     },
+  {
+      "key": "七猫小说",
+      "name": "📖 七猫小说[py]",
+      "type": 3,
+      "api": "./py/七猫小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
    {
       "key": "笔趣阁小说",
       "name": "📖 笔趣阁小说[py]",
@@ -152,16 +162,7 @@
       "filterable": 0,
       "changeable": 0
     },
-    {
-      "key": "七猫小说",
-      "name": "📖 七猫小说[py]",
-      "type": 3,
-      "api": "./py/七猫小说.py",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0,
-      "changeable": 0
-    },
+    
 
  
 
