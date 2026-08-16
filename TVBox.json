@@ -100,6 +100,12 @@
 {"key":"drpy_js_菜狗","name":"官源 • 搜狗[js]","type":3,"api":"https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js","ext":"https://raw.githubusercontent.com/qist/tvbox/master/js/菜狗.js"},
 {"key":"drpy_js_优酷","name":"官源 • 优酷[js]","type":3,"api":"https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js","ext":"https://raw.githubusercontent.com/qist/tvbox/master/js/优酷.js"},
 
+//py
+{"key": "七猫小说", "name": "📖 七猫小说[py]", "type": 3, "api": "./py/七猫小说.py", "searchable": 1, "quickSearch": 1},
+{"key": "顶点小说", "name": "📖 顶点小说[py]", "type": 3, "api": "./py/顶点小说.py", "searchable": 1, "quickSearch": 1},
+{"key": "红豆小说", "name": "📖 红豆小说[py]", "type": 3, "api": "./py/红豆小说.py", "searchable": 1, "quickSearch": 1},
+
+ 
 
 //csp_XBPQ
 {"key":"养生堂","name":"🧿养生｜知识","type":3,"jar":"https://ncstatic-file.clewm.net/rsrc/2026/0307/11/98d51d4d95c5cf1b67e74af45cc4445f.jpg;md5;4d860d06ec233dbcb891b76055f099d5","api":"csp_XBPQ","ext":"https://cdn.jsdmirror.com/gh/ouhaibo1980/tvbox@main/XBPQ/养生堂.json","style":{"type":"rect","ratio":1.597}},
