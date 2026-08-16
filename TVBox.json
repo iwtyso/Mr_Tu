@@ -100,10 +100,67 @@
 {"key":"drpy_js_菜狗","name":"官源 • 搜狗[js]","type":3,"api":"https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js","ext":"https://raw.githubusercontent.com/qist/tvbox/master/js/菜狗.js"},
 {"key":"drpy_js_优酷","name":"官源 • 优酷[js]","type":3,"api":"https://raw.githubusercontent.com/qist/tvbox/master/lib/drpy2.min.js","ext":"https://raw.githubusercontent.com/qist/tvbox/master/js/优酷.js"},
 
-//py
-{"key": "七猫小说", "name": "📖 七猫小说[py]", "type": 3, "api": "./py/七猫小说.py", "searchable": 1, "quickSearch": 1},
-{"key": "顶点小说", "name": "📖 顶点小说[py]", "type": 3, "api": "./py/顶点小说.py", "searchable": 1, "quickSearch": 1},
-{"key": "红豆小说", "name": "📖 红豆小说[py]", "type": 3, "api": "./py/红豆小说.py", "searchable": 1, "quickSearch": 1},
+//小说py
+  {
+      "key": "小说聚合搜索",
+      "name": "🔍 小说聚合搜索",
+      "type": 3,
+      "api": "./py/小说聚合搜索.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "燃文小说",
+      "name": "📖 燃文小说[py]",
+      "type": 3,
+      "api": "./py/燃文小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "笔趣阁",
+      "name": "📖 笔趣阁[py]",
+      "type": 3,
+      "api": "./py/笔趣阁.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "灯笔小说",
+      "name": "📖 灯笔小说[py]",
+      "type": 3,
+      "api": "./py/灯笔小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "顶点小说",
+      "name": "📖 顶点小说[py]",
+      "type": 3,
+      "api": "./py/顶点小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
+    {
+      "key": "七猫小说",
+      "name": "📖 七猫小说[py]",
+      "type": 3,
+      "api": "./py/七猫小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
 
  
 
