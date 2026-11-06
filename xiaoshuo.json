@@ -51,6 +51,16 @@
       "filterable": 0,
       "changeable": 0
     },
+     {
+      "key": "起点小说",
+      "name": "📖 起点小说[py]",
+      "type": 3,
+      "api": "https://cdn.jsdelivr.net/gh/iwtyso/Mr_Tu@main/py/起点小说.py",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "changeable": 0
+    },
     {
       "key": "顶点小说",
       "name": "📖 顶点小说[py]",
